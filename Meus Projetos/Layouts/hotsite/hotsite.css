@@ -1,0 +1,508 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Raleway-regular;
+}
+
+/* header */
+.barrasuperior {
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 30;
+  align-items: center;
+  padding: 0 2em;
+  height: 9%;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+}
+
+.barrasuperior .logo {
+  float: left;
+  height: 2.8em;
+}
+
+.barrasuperior ul {
+  list-style: none;
+}
+
+.barrasuperior ul li {
+  float: left;
+  padding: 1em 1.2em;
+  cursor: pointer;
+}
+
+.barrasuperior ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.barrasuperior ul li:hover a {
+  text-decoration: none;
+  color: rgb(138, 137, 137);
+  font-size: 20px;
+}
+
+/* conteiner principal */
+.conteiner .home {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/IMG_2707.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.conteiner .home .gradient {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(230, 56, 26, 0.6),
+    rgba(179, 33, 82, 0.6),
+    rgba(129, 65, 86, 0.6),
+    rgba(63, 101, 127, 0.6),
+    rgba(25, 121, 182, 0.6),
+    rgba(107, 197, 214, 0.6)
+  );
+  position: relative;
+}
+
+.conteiner .home .gradient .marca {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.conteiner .home .gradient .marca .logo {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  background-image: url("./img/logo\ isolada\ branca.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+/* conteiner 2 */
+/* projeto */
+.conteiner .pages .projeto {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/IMG_3078.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteiner .pages .projeto .texto {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(129, 65, 86, 0.6);
+}
+
+.conteiner .pages .projeto .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .projeto .texto .conteudo p {
+  margin-top: 25px;
+}
+/* agenda */
+.conteiner .pages .agenda {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/_MG_8477.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.conteiner .pages .agenda .texto {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(179, 33, 82, 0.6);
+  float: right;
+}
+
+.conteiner .pages .agenda .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .agenda .texto .conteudo p {
+  margin-top: 25px;
+}
+/* manual */
+.conteiner .pages .manual {
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    rgba(230, 56, 26, 0.6),
+    rgba(179, 33, 82, 0.6),
+    rgba(129, 65, 86, 0.6),
+    rgba(63, 101, 127, 0.6),
+    rgba(25, 121, 182, 0.6),
+    rgba(107, 197, 214, 0.6)
+  );
+}
+.conteiner .pages .manual .pgs {
+  height: 100vh;
+  width: 0;
+  float: left;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+/* page1 */
+.conteiner .pages .manual .page1 {
+  background-image: url("./img/IMG_3117.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteiner .pages .manual .page1 .texto {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(230, 56, 26, 0.6),
+    rgba(179, 33, 82, 0.6),
+    rgba(129, 65, 86, 0.6),
+    rgba(63, 101, 127, 0.6),
+    rgba(25, 121, 182, 0.6),
+    rgba(107, 197, 214, 0.6)
+  );
+  float: left;
+  overflow: hidden;
+}
+
+.conteiner .pages .manual .page1 .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .manual .page1 .texto .conteudo p {
+  margin-top: 25px;
+}
+
+.conteiner .pages .manual .page1 .menu {
+  height: 100%;
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+.conteiner .pages .manual .page1 .menu ul {
+  list-style: none;
+  color: white;
+  margin-top: 200px;
+  margin-left: 40px;
+  font-size: 26px;
+}
+.conteiner .pages .manual .page1 .menu ul li {
+  cursor: pointer;
+}
+.conteiner .pages .manual .page1 .menu ul li:hover {
+  text-decoration: underline;
+}
+.conteiner .pages .manual .page2 {
+  background-image: url("./img/IMG_3074.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* page2 */
+.conteiner .pages .manual .page2 .imgs {
+  float: left;
+  overflow: hidden;
+  height: 100%;
+  width: 50%;
+  position: relative;
+  padding-top: 100px;
+}
+.conteiner .pages .manual .page2 .imgs img {
+  width: 60%;
+  margin-left: 20%;
+}
+.conteiner .pages .manual .page2 .texto {
+  float: right;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(230, 56, 26, 0.6);
+  overflow: hidden;
+}
+.conteiner .pages .manual .page2 .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .manual .page2 .texto .conteudo p {
+  margin-top: 25px;
+}
+.conteiner .pages .manual .page2 .texto .menu {
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+.conteiner .pages .manual .page2 .texto .menu ul {
+  list-style: none;
+  margin-top: 300px;
+  overflow: hidden;
+}
+.conteiner .pages .manual .page2 .texto .menu ul li {
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+.conteiner .pages .manual .page2 .texto .menu ul li:hover {
+  text-decoration: underline;
+}
+/* page3 */
+.conteiner .pages .manual .page3 {
+  background-image: url("./img/_MG_5038.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.conteiner .pages .manual .page3 .texto {
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(179, 33, 82, 0.6);
+  overflow: hidden;
+}
+.conteiner .pages .manual .page3 .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .manual .page3 .texto .conteudo p {
+  margin-top: 25px;
+}
+.conteiner .pages .manual .page3 .texto .menu {
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+.conteiner .pages .manual .page3 .texto .menu ul {
+  list-style: none;
+  margin-top: 300px;
+  overflow: hidden;
+}
+.conteiner .pages .manual .page3 .texto .menu ul li {
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+.conteiner .pages .manual .page3 .texto .menu ul li:hover {
+  text-decoration: underline;
+}
+/* page4 */
+.conteiner .pages .manual .page4 {
+  background-image: url("./img/_MG_8469.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.conteiner .pages .manual .page4 .texto {
+  float: right;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(129, 65, 86, 0.6);
+  overflow: hidden;
+}
+.conteiner .pages .manual .page4 .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .manual .page4 .texto .conteudo p {
+  margin-top: 25px;
+}
+.conteiner .pages .manual .page4 .texto .menu {
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+.conteiner .pages .manual .page4 .texto .menu ul {
+  list-style: none;
+  margin-top: 300px;
+  overflow: hidden;
+}
+.conteiner .pages .manual .page4 .texto .menu ul li {
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+.conteiner .pages .manual .page4 .texto .menu ul li:hover {
+  text-decoration: underline;
+}
+/* page5 */
+.conteiner .pages .manual .page5 {
+  background-image: url("./img/IMG_3106.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.conteiner .pages .manual .page5 .texto {
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(25, 121, 182, 0.6);
+  overflow: hidden;
+}
+.conteiner .pages .manual .page5 .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .manual .page5 .texto .conteudo p {
+  margin-top: 25px;
+}
+.conteiner .pages .manual .page5 .texto .menu {
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+.conteiner .pages .manual .page5 .texto .menu ul {
+  list-style: none;
+  margin-top: 300px;
+  overflow: hidden;
+}
+.conteiner .pages .manual .page5 .texto .menu ul li {
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+.conteiner .pages .manual .page5 .texto .menu ul li:hover {
+  text-decoration: underline;
+}
+/* page6 */
+.conteiner .pages .manual .page6 {
+  background-image: url("./img/_MG_8477.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.conteiner .pages .manual .page6 .texto {
+  float: right;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(63, 101, 127, 0.6);
+  overflow: hidden;
+}
+.conteiner .pages .manual .page6 .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .manual .page6 .texto .conteudo p {
+  margin-top: 25px;
+}
+.conteiner .pages .manual .page6 .texto .menu {
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+.conteiner .pages .manual .page6 .texto .menu ul {
+  list-style: none;
+  margin-top: 300px;
+  overflow: hidden;
+}
+.conteiner .pages .manual .page6 .texto .menu ul li {
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+.conteiner .pages .manual .page6 .texto .menu ul li:hover {
+  text-decoration: underline;
+}
+/* page7 */
+.conteiner .pages .manual .page7 {
+  background-image: url("./img/_MG_5021.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.conteiner .pages .manual .page7 .texto {
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-color: rgba(107, 197, 214, 0.6);
+  overflow: hidden;
+}
+.conteiner .pages .manual .page7 .texto .conteudo {
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.conteiner .pages .manual .page7 .texto .conteudo p {
+  margin-top: 25px;
+}
+.conteiner .pages .manual .page7 .texto .menu {
+  color: white;
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+.conteiner .pages .manual .page7 .texto .menu ul {
+  list-style: none;
+  margin-top: 300px;
+  overflow: hidden;
+}
+.conteiner .pages .manual .page7 .texto .menu ul li {
+  cursor: pointer;
+  float: left;
+  margin-right: 10px;
+}
+.conteiner .pages .manual .page7 .texto .menu ul li:hover {
+  text-decoration: underline;
+}
+
+.conteiner .pages .manual .pgs .menu ul .marcado {
+  text-decoration: underline;
+  color: rgb(201, 201, 201);
+  cursor: none;
+}
+
+.conteiner .pages .manual .largura {
+  width: 100vw;
+  transition: width 0.5s;
+  transition-delay: 0.5s;
+}
+
+@font-face {
+  font-family: Raleway-regular;
+  src: url("fontes/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: Aqua-Grotesque;
+  src: url("fontes/aqua\ -\ títulos.ttf");
+}
