@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home{
+    background-color: rgb(206, 160, 202);
+    height: 100vh;
+    position: relative;
+
+}
+.home h2{
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.logo img{
+    transform: scale(0.6, 0.6);
+}
+.conteudo1{
+    height: 100vh;
+    background-image: url(./img2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+}
+.conteudo1 .conteudo{
+    background-color: rgba(255, 255, 255, 0.466);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.conteudo1 .conteudo .texto{
+    flex-basis: 50%;
+    text-align: center;
+    margin-top: 6%;
+}
+.conteudo1 .conteudo .cadastro{
+    flex-basis: 50%;
+    position: relative;
+}
+.conteudo1 .conteudo .cadastro .forma{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: rgb(126, 164, 215);
+    border-radius: 25px;
+    text-align: center;
+}
+.conteudo2{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ansiedade{
+    flex-basis: 50%;
+    position: relative;
+}
+.ansiedade .texto, .estresse .texto{
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.estresse .texto{
+    left: 40%;
+}
+.ansiedade h3{
+    background-color: rgb(64, 176, 127);
+    border-radius: 25px 25px 0 0;
+}
+.ansiedade p{
+    border: 1px solid rgb(64, 176, 127);
+    border-radius: 0 0 25px 25px;
+}
+.estresse{
+    flex-basis: 50%;
+    position: relative;
+}
+.estresse h3{
+    background-color: rgb(64, 176, 127);
+    border-radius: 25px 25px 0 0;
+}
+.estresse p{
+    border: 1px solid rgb(64, 176, 127);
+    border-radius: 0 0 25px 25px;
+}
+.conteudo3{
+    height: 100vh;
+    background-image: url(./img2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+}
+.conteudo3 .conteudo{
+    background-color: rgba(255, 255, 255, 0.466);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.conteudo3 .conteudo .cadastro{
+    position: relative;
+    flex-basis: 50%;
+}
+.conteudo3 .conteudo .texto{
+    flex-basis: 50%;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.conteudo3 .conteudo .cadastro .forma{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: rgb(245, 172, 142);;
+    border-radius: 25px;
+    text-align: center;
+}
+.footer{
+    height: 200px;
+    background-color: rgb(206, 160, 202);
+}

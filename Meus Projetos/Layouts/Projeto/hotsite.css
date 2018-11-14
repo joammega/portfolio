@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navfixo{
+    height: 100px;
+    background-color: rgb(206, 160, 202);
+}
+.footer{
+    height: 100px;
+}
+.texto1{
+    background-image: url(./img2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+    height: 100vh;
+    flex-basis: 60%;
+}
+.texto{
+    background-color: rgba(240, 248, 255, 0.63);
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+.texto span{
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+}
+.cadastro{
+    flex-basis: 40%;
+    background-color: rgb(206, 160, 202);
+    height: 100vh;
+}
+.conteudo1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteudo2{
+    background-image: url(./img1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+
+    height: 100vh;
+}

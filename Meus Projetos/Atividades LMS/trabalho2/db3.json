@@ -1,0 +1,70 @@
+{
+  "groups": [
+    {
+      "id": "1",
+      "groupName": "Grupo de Teste 1",
+      "groupID": "idGrupo1"
+    },
+    {
+      "id": "2",
+      "groupName": "Grupo de Teste 2",
+      "groupID": "idGrupo2"
+    },
+    {
+      "id": "3",
+      "groupName": "Grupo de Teste 3",
+      "groupID": "idGrupo3"
+    }
+  ],
+  "idGrupo1": [
+    {
+      "id": "1",
+      "userName": "Usuário qualquer",
+      "message": "Será que vai dar certo?"
+    },
+    {
+      "id": "2",
+      "userName": "Usuário qualquer 2",
+      "message": "Eita, deu certo, ó"
+    },
+    {
+      "id": "3",
+      "userName": "Usuário qualquer 3",
+      "message": "Top demais!"
+    }
+  ],
+  "idGrupo2": [
+    {
+      "id": "1",
+      "userName": "Raíssa",
+      "message": "Saudades do Fox"
+    },
+    {
+      "id": "2",
+      "userName": "Filipe",
+      "message": "Até parece"
+    },
+    {
+      "id": "3",
+      "userName": "Raíssa",
+      "message": "SAUDADE DE XEIRÁ UZÓVO"
+    }
+  ],
+  "idGrupo3": [
+    {
+      "id": "1",
+      "userName": "Raíssa",
+      "message": "Filipe, preciso da tua ajuda"
+    },
+    {
+      "id": "2",
+      "userName": "Filipe",
+      "message": "Já sei, é com LMS né?"
+    },
+    {
+      "id": "3",
+      "userName": "Raíssa",
+      "message": "Sim :("
+    }
+  ]
+}

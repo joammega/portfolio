@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "celular": 1,
+      "nome": "Joao",
+      "senha": "1234"
+    }
+  ],
+  "grupos": [
+    {
+      "grupo": "os bichinhos",
+      "membros": [
+        {
+          "nome": "eu",
+          "id": 1
+        },
+        {
+          "nome": "eeu",
+          "id": 2
+        },
+        {
+          "nome": "mesmo",
+          "id": 3
+        },
+        {
+          "nome": "joao",
+          "id": 4
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "conversas": [
+    {
+      "idgrupo": 1,
+      "nome": "joao",
+      "mensagem": "helooodoasdas dandhai",
+      "id": 1
+    },
+    {
+      "idgrupo": 1,
+      "nome": "eu",
+      "mensagem": "dadadadass",
+      "id": 2
+    }
+  ]
+}

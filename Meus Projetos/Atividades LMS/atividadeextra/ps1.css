@@ -1,0 +1,134 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.principal1{
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    transition: background-color 10s;
+}
+.sony{
+    width: 132px;
+    color: white;
+    font-size: 65px;
+    position: relative;
+    top: 5vh;
+    font-family: 'clarendon','serif';
+    margin: auto;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+.quadrado{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to left bottom,orangered,yellow,orangered);
+    transform: rotate(45deg);
+    margin: auto;
+    position: relative;
+    top: 20vh;   
+}
+
+.triang{
+    transition: transform 1s;
+}
+
+.color{
+    stop-color: orangered;
+    transition: stop-color 1s;
+}
+.principal1:hover .triang{
+    transform: scale(0.45, 0.45);
+}
+.principal1:hover .triang2 svg linearGradient .color{
+    stop-color: rgb(218, 6, 6);
+}
+.float{
+    position:absolute;
+}
+.triang2{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+    
+}
+.triang1{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    transition: 1s;
+}
+.principal1:hover .triang2{
+    top:68px;
+    left: 52px;
+}
+.principal1:hover .triang1{
+    bottom:68px;
+    right: 52px;
+}
+.principal1:hover .sony, .principal1:hover .texto{
+    color: rgb(4, 4, 124);
+}
+.texto{
+    width: 320px;
+    color:white;
+    font-size: 40px;
+    position: relative;
+    top: 30vh;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    transition: 1s;
+    transition-delay: 0.5s;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+.cena2{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    transition: background-color 1s;
+    transition-delay: 3s;
+    position: relative;
+    
+}
+.cena1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.principal1:hover .cena2{
+    background-color: black;
+}
+.logo{
+    transform: scale(0,0);
+    margin: auto;
+    position: relative;
+    bottom: 15vh;
+    display: block;
+    transition: transform 1ms;
+    transition-delay: 4s;
+}
+.principal1:hover .logo{
+    transform: scale(0.3,0.3)
+}
+.playstation{
+    display: block;
+    color: transparent;
+    font-weight: bold;
+    margin: auto;
+    font-size: 60px;
+    position: relative;
+    bottom: 50vh;
+    width: 300px;
+    transition: color 1s;
+    transition-delay: 4s;
+}
+.principal1:hover .playstation{
+    color: white;
+}

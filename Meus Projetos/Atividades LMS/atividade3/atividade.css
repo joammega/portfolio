@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./gradiente.jpg);
+    text-align: center;
+    font-family: arial;
+}
+h1{
+    font-size: 18px;
+}
+circle, line{
+    stroke: black;
+    stroke-width: 5px;
+
+}
+.minha-classe{
+    columns: #101010;;
+}
+section .minha-classe{
+    color: #252525;
+    font-size: 22px;
+}
+#segredo{
+    color: transparent;
+}
+.float{
+    float: left;
+    background-color: blue
+}
+div{
+    overflow: hidden;
+}
+article{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border: solid rgba(0, 0, 0, 0.315) 5px;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+}
+.art1{
+    background-color: rgba(255, 255, 255, 0.315);
+    border: solid rgba(0, 0, 0, 0.315) 5px;
+}
+.header{
+    width: 30vw;
+   margin: auto;
+   background-color: blue;
+}
+.nav{
+    width: 70%;
+    margin: auto;
+    background-color:white;
+    font-size: 2cm;
+}
+.art2{
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: groove;
+    border-bottom-color: blue;
+    border-top-color: blue;
+}
+.art3{
+    border-style: dashed solid dotted double;
+    border: 1px 0.1cm 1% 1vw;
+    border-color: pink;
+}

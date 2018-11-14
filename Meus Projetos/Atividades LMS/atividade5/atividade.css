@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cabecalho{
+    background-color: rgb(32, 32, 173);
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    flex-basis: 25%;
+    background-color: rgb(77, 77, 245);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+.menu ul li a:hover{
+    background-color: blue;
+}
+.conteudo{
+    background-color: rgb(227, 227, 253);
+    flex-basis: 75%;
+    position: relative;
+}
+.conteudo ul{
+    list-style: none;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+.conteudo ul li .texto{
+    max-height: 0px;
+    overflow: hidden;
+    background-color: white;
+    transition: max-height 0.5s;
+}
+.conteudo ul li .tittle{
+    background-color: rgb(79, 79, 206);
+    cursor: pointer;
+    user-select: none;
+}
+.abrir{
+    max-height: 1000px;
+    overflow: hidden;
+    background-color: white;
+    transition: max-height 0.5s;
+}
+.open{
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    display: none
+}
+@media screen and (max-width:480px){
+    .menu{
+        flex-basis: 0%;
+        transition: flex-basis 0.5s;
+    }
+    .conteudo{
+        flex-basis: 100%;
+        transition: flex-basis 0.5s;
+    }
+    .open{
+        display: block;
+    }
+    .menu.change{
+        flex-basis: 25%;
+    }
+    .conteudo.change{
+        flex-basis: 75%;
+    }
+}

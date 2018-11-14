@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+    height: 100vh;
+}
+.conteiner .header{
+    flex-basis: 100%;
+    background-color: rgb(103, 253, 115);
+    height: 10%;
+    overflow: hidden;
+}
+.conteiner .header .logo{
+    width: 30%;
+    height: 100%;
+    border-right: solid 1px gray;
+    background-image: url(./2000px-WhatsApp_logo.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    float: left;
+}
+.conteiner .header .grupo{
+    float: left;
+    font-size: 22px;
+    padding: 15px;
+}
+.conteiner .header .logar{
+    float: right;
+    font-size: 22px;
+    padding: 18px;
+    border-left: 1px solid gray;
+    height: 100%;
+    cursor: pointer;
+    
+}
+.conteiner .header .logar:hover{
+    background-color: rgb(53, 207, 66);
+}
+.conteiner .amigos{
+    flex-basis: 30%;
+    background-color: rgb(163, 163, 163);
+    height: 90%;
+    overflow: hidden;
+   
+}
+.conteiner .amigos .botao{
+    height: 10%;
+    background-color: rgb(201, 201, 201);
+    border-top: 1px solid gray;
+    cursor: pointer;
+    text-align: center;
+    font-size: 26px;
+
+}
+.conteiner .amigos .botao span{
+    display: block;
+    margin: 15px;
+}
+.conteiner .amigos .lista{
+    height: 90%;
+    overflow: auto;
+    width: 100%;
+
+}
+.conteiner .amigos .lista .amigo{
+    height: 100px;
+    background-color: rgb(187, 187, 187);
+    border-bottom: solid rgb(97, 97, 97) 0.5px;
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+    width: 100%;
+}
+.conteiner .amigos .lista .amigo .img{
+    width: 30%;
+    height: 100%;
+    background-image: url("./1486395884-account_80606.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    float: left;
+}
+.conteiner .amigos .lista .amigo .textos{
+    float: left; 
+    overflow: hidden;
+    width:70%; 
+}
+.conteiner .amigos .lista .amigo .nome{
+    color: rgb(29, 29, 29);
+    padding: 5px;
+    padding-top: 25px;
+    font-size: 26px;
+}
+.conteiner .amigos .lista .amigo .msg{
+    padding: 5px;
+    padding-top: 0;
+    color: rgb(37, 37, 37);
+    overflow: hidden;
+}
+.conteiner .amigos .lista .amigo:hover{
+    background-color: rgb(179, 179, 179)
+}
+.conteiner .mensagens{
+    flex-basis: 70%;
+    background-color: rgb(224, 223, 223);
+    height: 90%;
+}
+.conteiner .mensagens .conteudo{
+    height: 92%;
+    overflow: auto;
+    position: relative;
+}
+.conteiner .mensagens .conteudo .msg1, .conteiner .mensagens .conteudo .msg2{
+    overflow: hidden;
+}
+.conteiner .mensagens .conteudo .msg1 p{
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+    margin: 25px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    overflow: hidden;
+}
+.conteiner .mensagens .conteudo .msg2 p{
+    background-color: rgb(156, 240, 131);
+    border-radius: 20px;
+    float: right;
+    padding: 10px;
+    margin: 25px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    overflow: hidden;
+}
+.conteiner .mensagens .caixa{
+    height: 8%;
+    width: 98%;
+    margin: auto;
+    background-color: rgb(156, 240, 131);
+    border-radius: 25px;
+    display: none;
+}
+.conteiner .mensagens .caixa form input{
+    width: 85%;
+    height: 80%;
+    margin: 15px;
+}
+.conteiner .mensagens .caixa form button{
+    border-radius: 25px;
+    background-color: rgb(198, 253, 198);
+    padding: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+    border: none;
+    outline: none;
+}
+.conteiner .mensagens .caixa form button:active{
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 2px black;
+    border: none;
+}
+.conteiner .overlay{
+    width: 900px;
+    margin: auto;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(201, 201, 201);
+    display: none;
+}
+.conteiner .overlay .login, .conteiner .overlay .cadastrar{
+    height:60%;
+    width: 40%;
+    margin: auto;
+    margin-top: 20%; 
+    background-color: rgb(103, 253, 115);
+    border-radius: 25px;
+    display: none;
+}
+.conteiner .overlay .login form, .conteiner .overlay .cadastrar form{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 22px;
+}
+.conteiner .overlay .login form input, .conteiner .overlay .cadastrar form input{
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+.conteiner .overlay .login form button, .conteiner .overlay .cadastrar form button{
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.conteiner .overlay .login form span, .conteiner .overlay .cadastrar form span{
+    text-decoration: underline;
+    color: rgb(110, 85, 255);
+    cursor: pointer;
+    font-size: 18px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(196, 196, 196);
+}
+::-webkit-scrollbar-thumb{
+    background: gray;
+}

@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+.parte1{
+    width: 100%;
+    height: 750px;
+    background-image: url("./Prancheta\ 13.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.parte1 .logo{
+    height: 30%;
+    background-image: url("./Home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+.parte1 .title{
+    height: 10%;
+    position: relative
+}
+.parte1 .conteudo{
+    height: 40%;
+    position: relative;
+}
+.parte1 .title h2{
+    position: absolute;
+    bottom: 10%;
+    font-size: 46px;
+    width: 100%;
+}
+.parte1 .conteudo p{
+    width: 70%;
+    margin: auto;
+    font-size: 31px;
+    text-align: justify;
+}
+.parte1 .footer{
+    height: 20%;
+    background-image: url("./Prancheta\ 10.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    transform: translate(0, 1%);
+}
+.parte2{
+    text-align: center;
+    position: relative;
+}
+.parte2 .cabecalho h2{
+    padding-top: 75px;
+    font-size: 46px;
+}
+.parte2 .cabecalho .linha{
+    height: 8px;
+    width: 30%;
+    background-color: rgb(126, 164, 215);
+    border-radius: 25px;
+    margin: auto;
+
+}
+.parte2 .texto{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 31px;
+    margin-bottom: 75px;
+}
+.parte3{
+    background-color: rgb(126, 164, 215);
+    color: white;
+    text-align: center;
+}
+.parte3 .cabecalho h2{
+    padding-top: 75px;
+    font-size: 46px;
+}
+.parte3 .cabecalho .linha{
+    height: 8px;
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+}
+.parte3 .logo img{
+    margin-top: 25px;
+}
+.parte3 .texto{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 31px;
+}
+.parte3 .footer{
+    height: 27.75%;
+    background-image: url("./Prancheta\ 11.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    height: 150px;
+}
+.parte4{
+    background-color: white;
+    text-align: center;
+}
+.parte4 .cabecalho{
+    height: 135px;
+}
+.parte4 .cabecalho h2{
+    padding-top: 75px;
+    font-size: 46px;
+}
+.parte4 .cabecalho .linha{
+    height: 8px;
+    width: 30%;
+    background-color: rgb(126, 164, 215);
+    border-radius: 25px;
+    margin: auto;
+
+}
+.parte4 .texto{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 31px;
+}
+.parte4 .aplicacoes{
+    margin-top: 25px;
+}
+.parte4 .texto h3{
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.parte5{
+    color: white;
+    text-align: center;
+    background-color: rgb(126, 164, 215);
+}
+.parte5 .header{
+    background-image: url("./Prancheta\ 12.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    height: 150px;
+}
+.parte5 .cabecalho h2{
+    padding-top: 75px;
+    font-size: 46px;
+}
+.parte5 .cabecalho .linha{
+    height: 8px;
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+}
+.parte5 .texto{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 31px;
+}
+.parte5 .aplicacoes{
+    margin-top: 25px;
+}
+.parte5 .footer{
+    background-image: url("./Prancheta\ 11.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    height: 150px;
+}
+.parte6{
+    text-align: center;
+    background-color: white;
+}
+.parte6 .cabecalho h2{
+    padding-top: 75px;
+    font-size: 46px;
+}
+.parte6 .cabecalho .linha{
+    height: 8px;
+    width: 30%;
+    background-color: rgb(126, 164, 215);
+    border-radius: 25px;
+    margin: auto;
+
+}
+.parte6 .botoes{
+    height: 300px;
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+}
+.parte6 .botoes .botao{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    user-select: none;
+}
+.parte6 .botoes .botao a{
+    margin: auto;
+    width: 30%;
+    display: block;
+    color: rgb(126, 164, 215);
+    text-decoration: none;
+    padding: 5px 10px;
+    border: solid rgb(126, 164, 215) 1.5px;
+    border-radius: 25px;
+}
+.parte6 .botoes .botao a:hover{
+    background-color: rgb(126, 164, 215);
+    color: white;
+}
+.foooter{
+    height: 300px;
+    background-color: rgb(126, 164, 215);
+}

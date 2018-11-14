@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Joao",
+      "senha": "1234"
+    }
+  ],
+  "grupos": [
+    {
+      "grupo":"grupo da familia",
+      "id": "1",
+      
+      "membros": [{
+        "id":1,
+        "nome":"joao"
+      }, {
+        "id":2,
+        "nome":"maria"
+      }, {
+        "id":3,
+        "nome":"josé"
+      }],
+
+      "conversas": [
+        {
+          "id":"oi",
+          "nome": "joao",
+          "mensagem": "oi"
+        }
+      ]
+    }
+  ]
+ 
+}
